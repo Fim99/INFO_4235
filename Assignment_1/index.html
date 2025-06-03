@@ -2,22 +2,128 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Assignemnt 1</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-   
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume - Nathan Verma</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Website</h1>
+  <header class="bg-primary text-white p-4 mb-4">
+    <div class="container">
+      <h1 class="mb-0">Nathan Verma</h1>
+      <p class="mb-0">nathandverma@gmail.com</p>
+    </div>
   </header>
 
-  <main>
-    <p>This is a basic HTML template</p>
+  <main class="container mb-5">
+    <!-- Work Experience -->
+    <section class="mb-5">
+      <h2 class="mb-3">Work Experience</h2>
+
+      <div class="mb-4">
+        <h5>Web Designer - Freelance</h5>
+        <small class="text-muted">Nov 2022 - Present</small>
+        <ul>
+          <li>Leveraged a creative and strategic approach to design and develop responsive websites tailored to clients' needs.</li>
+          <li>Focused on user experience (UX) and user interface (UI) design principles to create intuitive and visually appealing web solutions.</li>
+          <li>Built from the ground up a soccer league website with a modern and engaging online platform.</li>
+          <li>Designed a user-friendly interface for fans to access match schedules, player profiles, and live scores.</li>
+          <li>Implemented responsive design to ensure a seamless user experience on various devices.</li>
+          <li>Integrated social media feeds and news updates to keep fans informed and engaged.</li>
+          <li>Resulted in a 30% increase in website traffic and a significant boost in fan engagement.</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h5>Fijian Food Vendor - Food Server</h5>
+        <small class="text-muted">August 2024</small>
+        <ul>
+          <li>Provided prompt and friendly service to customers, ensuring a positive dining experience in a fast-paced environment.</li>
+          <li>Managed food orders, ensuring accuracy and efficiency in preparation and delivery to maintain high customer satisfaction.</li>
+          <li>Maintained cleanliness of the booth, adhering to health and safety standards to ensure a safe and sanitary environment.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Costco - Stocker and Cart Attendant</h5>
+        <small class="text-muted">Sep 2017 - June 2018</small>
+        <ul>
+          <li>Collaborated with team members to ensure efficient and organized front-floor operations.</li>
+          <li>Managed over 200 shopping carts, ensuring they were properly maintained and returned to designated lots.</li>
+          <li>Contributed to a clean and safe shopping environment for customers.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <hr class="hr" />
+    <section class="mb-5">
+      <h2 class="mb-3">Education</h2>
+      <ul>
+        <li>Kwantlen Polytechnic University - Bachelor of Technology (Currently attending)</li>
+        <li>Diploma in Computer Information Systems, June 2022</li>
+        <li>Graduated from Seaquam Secondary, June 2018</li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <hr class="hr" />
+    <section class="mb-5">
+      <h2 class="mb-3">Skills</h2>
+      <ul>
+        <li>In-depth understanding of computer hardware and operating systems: Windows, Android, Linux.</li>
+        <li>Exceptional skills in productivity software: Word, Excel, PowerPoint, Docs, Photoshop, InDesign.</li>
+        <li>Advanced skills in computing languages: Java, HTML, C++, PHP, Python, SQL.</li>
+        <li>Deep understanding of workflow, effective work processes, and time management.</li>
+        <li>Experienced with troubleshooting and problem-solving.</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <hr class="hr" />
+    <section>
+      <h2 class="mb-3">Projects</h2>
+
+      <div class="mb-4">
+        <h5>Facial Recognition Software</h5>
+        <ul>
+          <li>Programmed and implemented facial recognition software using Raspberry Pi and Python.</li>
+          <li>Utilized Face Recognition Python library integrated with self-made classes.</li>
+          <li>Capable of denying and approving faces based on a blacklist of face images through buttons connected to Pi.</li>
+          <li>Features live feed of the face and real-time face detection through a webcam connected to Pi.</li>
+          <li>Stores user face images and blacklist status for future use of the system.</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h5>Website Application for Meal Tracker</h5>
+        <ul>
+          <li>Designed and developed a comprehensive meal tracking web application using HTML, PHP, and SQL.</li>
+          <li>Implemented functionality for users to create accounts, with encrypted data storage and robust input sanitization to ensure security.</li>
+          <li>Enabled users to add foods to meals, with real-time display of nutritional information, leveraging an optimized API for accurate food data retrieval.</li>
+          <li>Integrated with an SQL database to efficiently manage CRUD operations for foods, meals, and user accounts.</li>
+          <li>Conducted thorough testing and documentation to ensure application stability and maintainability.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Interactive 2D Action Game</h5>
+        <ul>
+          <li>Developed a 2D action game using Processing, a programming environment similar to Java, focusing on object-oriented design.</li>
+          <li>Implemented game mechanics including character movement, collision detection, and interactive elements.</li>
+          <li>Managed game state and progression with efficient data structures and event-driven programming for seamless gameplay.</li>
+          <li>Designed custom graphics and animations, enhancing the game's visual appeal and user interaction.</li>
+          <li>Conducted thorough testing and optimization to ensure smooth, responsive, and enjoyable gameplay.</li>
+        </ul>
+      </div>
+    </section>
   </main>
 
-  <footer>
+  <footer class="bg-light text-center py-3">
+    <div class="container">
+      <small>&copy; 2025 Nathan Verma</small>
+    </div>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>
