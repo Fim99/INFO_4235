@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <!-- Mobile Responsive Design - meta tag -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Resume - Nathan Verma</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"/>
 </head>
-<body>
-  <header class="bg-primary text-white p-4 mb-4">
+<body class="bg-dark text-light">
+  <header class="bg-danger text-white p-4 mb-4">
     <div class="container">
       <h1 class="mb-0">Nathan Verma</h1>
       <p class="mb-0">nathandverma@gmail.com</p>
@@ -52,10 +53,10 @@
           <li>Contributed to a clean and safe shopping environment for customers.</li>
         </ul>
       </div>
+    <hr class="hr" />
     </section>
 
     <!-- Education -->
-    <hr class="hr" />
     <section class="mb-5">
       <h2 class="mb-3">Education</h2>
       <ul>
@@ -63,10 +64,10 @@
         <li>Diploma in Computer Information Systems, June 2022</li>
         <li>Graduated from Seaquam Secondary, June 2018</li>
       </ul>
+    <hr class="hr" />
     </section>
 
     <!-- Skills -->
-    <hr class="hr" />
     <section class="mb-5">
       <h2 class="mb-3">Skills</h2>
       <ul>
@@ -76,14 +77,14 @@
         <li>Deep understanding of workflow, effective work processes, and time management.</li>
         <li>Experienced with troubleshooting and problem-solving.</li>
       </ul>
+    <hr class="hr" />
     </section>
 
     <!-- Projects -->
-    <hr class="hr" />
     <section>
       <h2 class="mb-3">Projects</h2>
 
-      <div class="mb-4">
+      <div class="mb-5">
         <h5>Facial Recognition Software</h5>
         <ul>
           <li>Programmed and implemented facial recognition software using Raspberry Pi and Python.</li>
@@ -92,9 +93,12 @@
           <li>Features live feed of the face and real-time face detection through a webcam connected to Pi.</li>
           <li>Stores user face images and blacklist status for future use of the system.</li>
         </ul>
+      <div>
+        <img src="assets/Facial_Recognition_Image_1.png" class="img-fluid rounded" style="width: 100%; max-width: 600px; object-fit: cover;">
+      </div>
       </div>
 
-      <div class="mb-4">
+      <div class="mb-5">
         <h5>Website Application for Meal Tracker</h5>
         <ul>
           <li>Designed and developed a comprehensive meal tracking web application using HTML, PHP, and SQL.</li>
@@ -103,6 +107,18 @@
           <li>Integrated with an SQL database to efficiently manage CRUD operations for foods, meals, and user accounts.</li>
           <li>Conducted thorough testing and documentation to ensure application stability and maintainability.</li>
         </ul>
+        <!-- Mobile Responsive Design - Image row and col -->
+        <div class="row g-3">
+          <div class="col-12 col-md-4">
+            <img src="assets/Meal_Tracker_Image_1.png" class="img-fluid rounded" style="object-fit: cover;">
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="assets/Meal_Tracker_Image_2.png" class="img-fluid rounded" style="object-fit: cover;">
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="assets/Meal_Tracker_Image_3.png" class="img-fluid rounded" style="object-fit: cover;">
+          </div>
+        </div>
       </div>
 
       <div>
@@ -115,15 +131,21 @@
           <li>Conducted thorough testing and optimization to ensure smooth, responsive, and enjoyable gameplay.</li>
         </ul>
       </div>
+      <div>
+      <video controls style="width: 100%; height: auto; max-width: 600px;">
+        <source src="assets/Scribble_Survival.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      </div>
     </section>
   </main>
 
-  <footer class="bg-light text-center py-3">
+  <footer class="bg-black text-center py-3">
     <div class="container">
       <small>&copy; 2025 Nathan Verma</small>
     </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
